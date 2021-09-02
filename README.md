@@ -1,0 +1,1 @@
+GitHub Actions is useful to automate tasks during development, such as linter checks and testing. The actions are event-driven, thus it is possible to run commands in parallel after a specified event. This repository contais a few tests to learn how to work with GitHub Actions properly.
