@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  ci-pipeline:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -10,4 +10,5 @@ jobs:
         with:
           python-version: 3.8.2
       - name: Copy files via scp
-        run: ls ${{ github.workspace }}
+        run: |
+          ls ${{ github.workspace }}
